@@ -1,5 +1,5 @@
 class TaskManagerApp < Sinatra::Base
-  set :root, File.expand_path("..", _dir_)
+  set :root, File.expand_path("..", __dir__)
 
   get '/' do
     'hello, world!'
